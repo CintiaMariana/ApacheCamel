@@ -28,4 +28,5 @@ Apesar de ser confundido com um **ESB (Enterprise Service Bus)**, o Camel não �
 
 ## Instalação
 Para começar a usar o Apache Camel, você pode incluir a dependência no seu projeto Maven:
+![dependencia_camel](images/dependencia_camel)
 
