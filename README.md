@@ -7,4 +7,16 @@
 - **Rotas de Integração**: Define rotas que determinam como as mensagens fluem entre diferentes sistemas.
 - **Componentes Diversos**: Suporte para diversos protocolos, como HTTP, JMS, FTP e muitos outros.
 - **DSL Intuitiva**: Uso do Domain-Specific Language (DSL) para definir rotas de forma simples e legível.
-- **Padões de Integração Corporativa (EIP)**: Implementa uma vasta gama de padrões de integração corporativa. 
+- **Padões de Integração Corporativa (EIP)**: Implementa uma vasta gama de padrões de integração corporativa.
+
+## Composição do Apache Camel
+O núcleo do Camel é sua **engine de roteamento**, que permite definir regras de rotas e processar mensagens de qualquer formato, sem precisar convertê-las. Isso garante integração com múltiplos sistemas sem se preocupar com o tipo de informação. O Camel abstrai os protocolos, suportando mais de 80 tipos, e permite a criação de plugins para outros protocolos.
+Apesar de ser confundido com um **ESB (Enterprise Service Bus)**, o Camel não é um ESB nem um container, mas pode ser implementado em containers. 
+
+## Como Funciona
+  O Apache Camel opera com base na definição de rotas de integração. Estas rotas são compostas por produtores, consumidores e processadores de mensagens, que em conjunto permitem a troca de informações entre diferentes sistemas. 
+
+## Vantagens: 
+- **Flexibilidade**: Permite integrar uma ampla gama de sistemas com o mínimo de código.
+- **Escalabilidade**: Adequado tanto para pequenas integrações como para grandes arquiteturas distribuídas.
+- **Compatibilidade**: Suporte para padrões de integração corporativa (EIPs).
