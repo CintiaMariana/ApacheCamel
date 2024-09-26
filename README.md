@@ -27,12 +27,13 @@ Apesar de ser confundido com um **ESB (Enterprise Service Bus)**, o Camel não �
 - **Excessivo para projetos pequenos**: Às vezes, é complexo demais para integrações mais simples
 
 ## Uso
-**1.Adicionar a dependência no pom.xml**: Inclua a dependência do Apache Camel no arquivo pom.xml do seu projeto. \n
-**2.Configuração básica de rotas**: Após a instalação, você pode começar a definir rotas de integração com a linguagem de rota do Camel. \n
-**3.Executar com um container (opcional)**: Camel pode ser configurado para rodar em containers como Tomcat ou empacotado em uma imagem Docker para maior portabilidade. \n
+**1. Adicionar a dependência no pom.xml**: Inclua a dependência do Apache Camel no arquivo pom.xml do seu projeto.  
+**2. Configuração básica de rotas**: Após a instalação, você pode começar a definir rotas de integração com a linguagem de rota do Camel.  
+**3. Executar com um container (opcional)**: Camel pode ser configurado para rodar em containers como Tomcat ou empacotado em uma imagem Docker para maior portabilidade.  
 
-## Referências
-https://camel.apache.org/ \n 
-https://www.devmedia.com.br/apache-camel-entenda-o-que-e/28747
+## Referências  
+[https://camel.apache.org/](https://camel.apache.org/)  
+[https://www.devmedia.com.br/apache-camel-entenda-o-que-e/28747](https://www.devmedia.com.br/apache-camel-entenda-o-que-e/28747)
+
 
 
