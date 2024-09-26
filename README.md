@@ -31,6 +31,32 @@ Apesar de ser confundido com um **ESB (Enterprise Service Bus)**, o Camel não �
 **2. Configuração básica de rotas**: Após a instalação, você pode começar a definir rotas de integração com a linguagem de rota do Camel.  
 **3. Executar com um container (opcional)**: Camel pode ser configurado para rodar em containers como Tomcat ou empacotado em uma imagem Docker para maior portabilidade.  
 
+## Explicação do código 
+**1. Criação do CamelContext**: O CamelContext é o núcleo do Apache Camel. Ele gerencia as rotas e componentes. 
+
+     CamelContext context = new DefaultCamelContext();
+     
+**2. Definição de uma rota**: A rota define que o servidor Jetty ouvirá solicitações HTTP em http://0.0.0.0:8080/send. Quando uma requisição é recebida, o corpo da mensagem é processado.
+
+      context.addRoutes(new RouteBuilder() {
+            @Override
+            public void configure() {
+                from("jetty:http://0.0.0.0:8080/send")
+                
+**3. Processamento da mensagem**: A mensagem recebida é capturada, impressa no console, e uma resposta cm o texto *"Mensagem Recebida"* é enviada de volta.
+
+         .process(exchange -> {
+                        String message = exchange.getIn().getBody(String.class);
+                        System.out.println("Mensagem Recebida: " + message);
+                        exchange.getOut().setBody("Mensagem Recebida: " + message);
+                        
+**4. Start e Stop**: O servidor Camel é iniciado e fica rodando por pelos milissegundos definido e depois para o contexto. 
+
+        context.start();
+        System.out.println("Servidor Camel foi iniciado");
+        Thread.sleep(1000000000);
+        context.stop();
+
 ## Referências  
 [https://camel.apache.org/](https://camel.apache.org/)  
 [https://www.devmedia.com.br/apache-camel-entenda-o-que-e/28747](https://www.devmedia.com.br/apache-camel-entenda-o-que-e/28747)
