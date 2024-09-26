@@ -1,4 +1,4 @@
-# Apache Camel <img src="https://static-00.iconduck.com/assets.00/apache-camel-icon-2048x2048-63ht0ese.png"/>
+# Apache Camel <img src="https://static-00.iconduck.com/assets.00/apache-camel-icon-2048x2048-63ht0ese.png" width="40" height="40"/>
 
 ## O que é?
 É um framework de integração open-source que facilita a implementação de rotas de integração em sistemas complexos. Ele oferece uma abstração simples para lidar com diferentes tipos de protocolos e tecnologias, permitindo a comunicação fluida entre sistemas heterogêneos. 
