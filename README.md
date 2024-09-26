@@ -20,3 +20,12 @@ Apesar de ser confundido com um **ESB (Enterprise Service Bus)**, o Camel não �
 - **Flexibilidade**: Permite integrar uma ampla gama de sistemas com o mínimo de código.
 - **Escalabilidade**: Adequado tanto para pequenas integrações como para grandes arquiteturas distribuídas.
 - **Compatibilidade**: Suporte para padrões de integração corporativa (EIPs).
+
+## Desvantagens:
+- **Difícil de aprender**: Ele tem muitos recursos, o que pode ser complicado para quem está começando
+- **Uso de recursos**: Pode consumir bastante memória e processamento em projetos maiores
+- **Excessivo para projetos pequenos**: Às vezes, é complexo demais para integrações mais simples
+
+## Instalação
+Para começar a usar o Apache Camel, você pode incluir a dependência no seu projeto Maven:
+
