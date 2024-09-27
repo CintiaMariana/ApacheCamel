@@ -82,6 +82,18 @@ Erro ao tentar enviar mensagem com o Servidor parado
   <img src="images/1000000_mensagens.jpg" alt="Teste de Carga - 1.000.000 mensagens" width="200"/>
 </p>
 
+## 
+
+Este trabalho foi feito por:
+[Cintia Mariana](https://github.com/CintiaMariana). Confira o repositório completo no GitHub:
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repositório-informational?logo=github)](https://github.com/CintiaMariana?tab=repositories)
+
+[Gabriel Pereira](https://github.com/Gabriel-6). Confira o repositório completo no GitHub:
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repositório-informational?logo=github)](https://github.com/Gabriel-6?tab=repositories)
+
+
 ## Referências  
 [https://camel.apache.org/](https://camel.apache.org/)  
 [https://www.devmedia.com.br/apache-camel-entenda-o-que-e/28747](https://www.devmedia.com.br/apache-camel-entenda-o-que-e/28747)
