@@ -57,6 +57,11 @@ Apesar de ser confundido com um **ESB (Enterprise Service Bus)**, o Camel n√£o √
         Thread.sleep(1000000000);
         context.stop();
 
+## Teste de Falha
+Erro ao tentar enviar mensagem com o Servidor parado
+
+![Erro_container](images/erro_container.jpg)
+
 ## Teste de Carga
 
 | Mensagens  | Tempo gasto      |
