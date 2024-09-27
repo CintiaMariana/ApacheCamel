@@ -57,6 +57,15 @@ Apesar de ser confundido com um **ESB (Enterprise Service Bus)**, o Camel não �
         Thread.sleep(1000000000);
         context.stop();
 
+## Teste de Carga
+
+| Mensagens  | Tempo gasto      |
+|------------|------------------|
+| 1000       | 0.68 segundos    |
+| 10.000     | 4.73 segundos    |
+| 100.000    | 35 segundos      |
+
+
 ## Referências  
 [https://camel.apache.org/](https://camel.apache.org/)  
 [https://www.devmedia.com.br/apache-camel-entenda-o-que-e/28747](https://www.devmedia.com.br/apache-camel-entenda-o-que-e/28747)
