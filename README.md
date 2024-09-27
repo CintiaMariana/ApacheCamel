@@ -70,6 +70,7 @@ Erro ao tentar enviar mensagem com o Servidor parado
 | 10.000     | 4.73 segundos    |
 | 100.000    | 35 segundos      |
 | 500.000    | 3 minutos        |
+| 1.000.000  | 6 minutos        |
 
 <p align="left">
   <img src="images/1000_mensagens.jpg" alt="Teste de Carga - 1000 mensagens" width="200"/>
@@ -78,6 +79,7 @@ Erro ao tentar enviar mensagem com o Servidor parado
 <p align="left">
   <img src="images/100000_mensagens.jpg" alt="Teste de Carga - 100.000 mensagens" width="200"/>
   <img src="images/500000_mensagens.jpg" alt="Teste de Carga - 500.000 mensagens" width="200"/>
+  <img src="images/1000000_mensagens.jpg" alt="Teste de Carga - 1.000.000 mensagens" width="200"/>
 </p>
 
 ## Referências  
