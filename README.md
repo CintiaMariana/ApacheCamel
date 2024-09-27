@@ -85,11 +85,12 @@ Erro ao tentar enviar mensagem com o Servidor parado
 ## 
 
 Este trabalho foi feito por:
-[Cintia Mariana](https://github.com/CintiaMariana). Confira o repositório completo no GitHub:
+
+[Cintia Mariana] (https://github.com/CintiaMariana). Confira o repositório completo no GitHub:
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repositório-informational?logo=github)](https://github.com/CintiaMariana?tab=repositories)
 
-[Gabriel Pereira](https://github.com/Gabriel-6). Confira o repositório completo no GitHub:
+[Gabriel Pereira] (https://github.com/Gabriel-6). Confira o repositório completo no GitHub:
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repositório-informational?logo=github)](https://github.com/Gabriel-6?tab=repositories)
 
