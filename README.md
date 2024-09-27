@@ -82,6 +82,10 @@ Erro ao tentar enviar mensagem com o Servidor parado
   <img src="images/1000000_mensagens.jpg" alt="Teste de Carga - 1.000.000 mensagens" width="200"/>
 </p>
 
+<p align="left">
+  <img src="images/tempo_testes.jpg" alt="Tempo Testes" width="200"/>
+</p>
+
 ## 
 
 Este trabalho foi feito por:
