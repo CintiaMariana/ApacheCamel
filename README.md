@@ -65,9 +65,9 @@ Apesar de ser confundido com um **ESB (Enterprise Service Bus)**, o Camel nÃ£o Ã
 | 10.000     | 4.73 segundos    |
 | 100.000    | 35 segundos      |
 
-![Teste de Carga - 1000 mensagens](images/1)
-![Teste de Carga - 10.000 mensagens](images/teste-carga-10000.png)
-![Teste de Carga - 100.000 mensagens](images/teste-carga-100000.png)
+![Teste de Carga - 1000 mensagens](images/1000_mensagens.jpg)
+![Teste de Carga - 10.000 mensagens](images/10000_mensagens.jpg)
+![Teste de Carga - 100.000 mensagens](images/100000_mensagens.jpg)
 
 
 
