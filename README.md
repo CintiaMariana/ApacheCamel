@@ -83,7 +83,7 @@ Erro ao tentar enviar mensagem com o Servidor parado
 </p>
 
 <p align="left">
-  <img src="images/tempo_testes.jpg" alt="Tempo Testes" width="200"/>
+  <img src="images/tempo_testes.jpg" alt="Tempo Testes" width="500"/>
 </p>
 
 ## 
