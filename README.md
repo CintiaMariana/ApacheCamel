@@ -74,11 +74,11 @@ Erro ao tentar enviar mensagem com o Servidor parado
 <p align="center">
   <img src="images/1000_mensagens.jpg" alt="Teste de Carga - 1000 mensagens" width="200"/>
   <img src="images/10000_mensagens.jpg" alt="Teste de Carga - 10.000 mensagens" width="200"/>
+</p>
+<p align="center">
   <img src="images/100000_mensagens.jpg" alt="Teste de Carga - 100.000 mensagens" width="200"/>
   <img src="images/500000_mensagens.jpg" alt="Teste de Carga - 500.000 mensagens" width="200"/>
 </p>
-
-
 
 ## Referências  
 [https://camel.apache.org/](https://camel.apache.org/)  
