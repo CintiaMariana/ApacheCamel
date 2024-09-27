@@ -71,10 +71,13 @@ Erro ao tentar enviar mensagem com o Servidor parado
 | 100.000    | 35 segundos      |
 | 500.000    | 3 minutos        |
 
-![Teste de Carga - 1000 mensagens](images/1000_mensagens.jpg)
-![Teste de Carga - 10.000 mensagens](images/10000_mensagens.jpg)
-![Teste de Carga - 100.000 mensagens](images/100000_mensagens.jpg)
-![Teste de Carga - 500.000 mensagens](images/500000_mensagens.jpg)
+<p align="center">
+  <img src="images/1000_mensagens.jpg" alt="Teste de Carga - 1000 mensagens" width="200"/>
+  <img src="images/10000_mensagens.jpg" alt="Teste de Carga - 10.000 mensagens" width="200"/>
+  <img src="images/100000_mensagens.jpg" alt="Teste de Carga - 100.000 mensagens" width="200"/>
+  <img src="images/500000_mensagens.jpg" alt="Teste de Carga - 500.000 mensagens" width="200"/>
+</p>
+
 
 
 ## Referências  
