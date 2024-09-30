@@ -1,23 +1,11 @@
 version: '3'
 services:
   camel-app:
-    build: .  # Certifique-se de que o Dockerfile está na raiz do projeto
+    build: .
     container_name: camel-container
     image: meu-camel-app
     ports:
-      - "8080:8080"  # Mapeia a porta do container para a porta do host
+      - "8080:8080"
     volumes:
       - ./data/input:/app/data/input
       - ./data/output:/app/data/output
-    depends_on:
-      - flask-app  # A dependência do serviço Flask
-
-  flask-app:
-    image: python:3.9
-    container_name: flask-container
-    volumes:
-      - ./flask:/app  # Certifique-se de que o código do Flask está neste diretório
-    working_dir: /app
-    command: python app.py
-    ports:
-      - "5000:5000"  # Mapeia a porta do container para a porta do host
