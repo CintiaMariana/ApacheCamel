@@ -62,6 +62,10 @@ Erro ao tentar enviar mensagem com o Servidor parado
 
 ![Erro_container](images/erro_container.jpg)
 
+Erro ao tentar adicionar um novo cliente quando já possui outro escutando a porta 
+
+![Erro_porta](images/erro_portaEmUso.jpg)
+
 ## Teste de Carga
 
 | Mensagens  | Tempo gasto      |
